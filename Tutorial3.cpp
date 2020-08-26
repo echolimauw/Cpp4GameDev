@@ -10,13 +10,17 @@ int main()
     int a = 1;
     int b(13);
 
-    if (a < b)
+    if (b < a)
     {
-        cout << "a less than b." << endl;
+        cout << "b is less than a." << endl;
+    }
+    else if (a < b)
+    {
+        cout << "a is less than b." << endl;
     }
     else
     {
-        cout << "b is less than a." << endl;
+        cout << "a and b are equal." << endl;
     }
 
     system("pause");
