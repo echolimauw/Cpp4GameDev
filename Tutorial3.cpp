@@ -14,7 +14,12 @@ int main()
     {
         cout << "a less than b." << endl;
     }
+    else
+    {
+        cout << "b is less than a." << endl;
+    }
 
+    system("pause");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
